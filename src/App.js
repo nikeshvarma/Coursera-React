@@ -1,16 +1,14 @@
 import React from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import Navigation from './components/layout/Navigation';
 import './App.css';
+import Menu from './components/Menu';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar dark color="dark">
-        <div className="container-fluid">
-          <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
-        </div>
-      </Navbar>
-    </div>
+    <>
+      <Navigation />
+      <Menu />
+    </>
   );
 }
 
