@@ -1,10 +1,15 @@
 import React from 'react';
+import { Navbar, NavbarBrand } from 'reactstrap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Navbar dark color="dark">
+        <div className="container-fluid">
+          <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
+        </div>
+      </Navbar>
     </div>
   );
 }
